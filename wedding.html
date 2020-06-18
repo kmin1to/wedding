@@ -1,0 +1,642 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>보람양과 권민군의 결혼식 안내</title><style>
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.highlight-default {
+}
+.highlight-gray {
+	color: rgb(155,154,151);
+}
+.highlight-brown {
+	color: rgb(100,71,58);
+}
+.highlight-orange {
+	color: rgb(217,115,13);
+}
+.highlight-yellow {
+	color: rgb(223,171,1);
+}
+.highlight-teal {
+	color: rgb(15,123,108);
+}
+.highlight-blue {
+	color: rgb(11,110,153);
+}
+.highlight-purple {
+	color: rgb(105,64,165);
+}
+.highlight-pink {
+	color: rgb(173,26,114);
+}
+.highlight-red {
+	color: rgb(224,62,62);
+}
+.highlight-gray_background {
+	background: rgb(235,236,237);
+}
+.highlight-brown_background {
+	background: rgb(233,229,227);
+}
+.highlight-orange_background {
+	background: rgb(250,235,221);
+}
+.highlight-yellow_background {
+	background: rgb(251,243,219);
+}
+.highlight-teal_background {
+	background: rgb(221,237,234);
+}
+.highlight-blue_background {
+	background: rgb(221,235,241);
+}
+.highlight-purple_background {
+	background: rgb(234,228,242);
+}
+.highlight-pink_background {
+	background: rgb(244,223,235);
+}
+.highlight-red_background {
+	background: rgb(251,228,228);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(55, 53, 47, 0.6);
+	fill: rgba(55, 53, 47, 0.6);
+}
+.block-color-brown {
+	color: rgb(100,71,58);
+	fill: rgb(100,71,58);
+}
+.block-color-orange {
+	color: rgb(217,115,13);
+	fill: rgb(217,115,13);
+}
+.block-color-yellow {
+	color: rgb(223,171,1);
+	fill: rgb(223,171,1);
+}
+.block-color-teal {
+	color: rgb(15,123,108);
+	fill: rgb(15,123,108);
+}
+.block-color-blue {
+	color: rgb(11,110,153);
+	fill: rgb(11,110,153);
+}
+.block-color-purple {
+	color: rgb(105,64,165);
+	fill: rgb(105,64,165);
+}
+.block-color-pink {
+	color: rgb(173,26,114);
+	fill: rgb(173,26,114);
+}
+.block-color-red {
+	color: rgb(224,62,62);
+	fill: rgb(224,62,62);
+}
+.block-color-gray_background {
+	background: rgb(235,236,237);
+}
+.block-color-brown_background {
+	background: rgb(233,229,227);
+}
+.block-color-orange_background {
+	background: rgb(250,235,221);
+}
+.block-color-yellow_background {
+	background: rgb(251,243,219);
+}
+.block-color-teal_background {
+	background: rgb(221,237,234);
+}
+.block-color-blue_background {
+	background: rgb(221,235,241);
+}
+.block-color-purple_background {
+	background: rgb(234,228,242);
+}
+.block-color-pink_background {
+	background: rgb(244,223,235);
+}
+.block-color-red_background {
+	background: rgb(251,228,228);
+}
+.select-value-color-default { background-color: rgba(206,205,202,0.5); }
+.select-value-color-gray { background-color: rgba(155,154,151, 0.4); }
+.select-value-color-brown { background-color: rgba(140,46,0,0.2); }
+.select-value-color-orange { background-color: rgba(245,93,0,0.2); }
+.select-value-color-yellow { background-color: rgba(233,168,0,0.2); }
+.select-value-color-green { background-color: rgba(0,135,107,0.2); }
+.select-value-color-blue { background-color: rgba(0,120,223,0.2); }
+.select-value-color-purple { background-color: rgba(103,36,222,0.2); }
+.select-value-color-pink { background-color: rgba(221,0,129,0.2); }
+.select-value-color-red { background-color: rgba(255,0,26,0.2); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="7a21f8f7-98c8-41e3-99de-24597dd51076" class="page sans"><header><img class="page-cover-image" src="wedding/IMG_2412.jpg" style="object-position:center 57.14%"/><h1 class="page-title">보람양과 권민군의 결혼식 안내</h1><table class="properties"><tbody></tbody></table></header><div class="page-body"><h2 id="7ffa6ca6-3bf4-4aee-b048-f0eb1ba1725d" class="">인사말</h2><p id="cf26f111-6ed5-4af0-9b64-4598aa864c6a" class=""> </p><p id="5ed4ce67-0350-4aff-a237-b428c08cff3b" class="">안녕하세요! 민&amp;보람입니다. </p><p id="eb7b4cab-3419-44e8-aa29-ac047780dfe5" class=""> 코로나로 인해 연기되었던 결혼식을 다시 준비하며, 고마운 지인 분들께 어떻게 소식을 전해드리면 좋을까 하다가 이렇게 글을 쓰게 되었습니다.</p><p id="8f2ccb19-680a-49db-afb3-ef152a608483" class=""> 사실은 7월쯤 되면 코로나가 잠잠해질 거란 생각이었는데, 요새 상황을 보니 꼭 그렇지만도 않은 것 같아요. 결혼식을 진행하는 입장에서도 마음이 무겁지만, 축하하러 와주시는 하객분들께서 불안하시지 않도록 최선을 다해 안전하게 준비하고 있습니다. 예식장 측에서도 혹시나 불미스러운 일이 생기지 않도록 철저하게 방역을 하고 있고, 매뉴얼에 따라 체온 측정, 마스크 착용 권고 등 가능한 모든 수단을 동원하기로 했습니다. 안전하고 즐거운 결혼식이 될 수 있도록 할게요.</p><p id="d02a65e4-4876-4933-8c5f-463f1267dae4" class=""> 천생연분인 저희 둘. 코로나로 인해 더욱 특별해진 결혼식을 시작으로, 새로운 삶을 시작하며 서로를 사랑하고 존중하는 멋진 부부가 되겠습니다. 많이 많이 축복해주세요.</p><p id="c41fdd54-13a4-4399-92a6-dbc62251fd16" class=""> 그리고 많은 분이 궁금해하시는 내용에 대해, 아래의 <strong>자주묻는질문</strong> 항목에 정리해 놓았으니 한번 읽어 주시면 감사하겠습니다.</p><p id="aec9ef41-c1d3-450c-9d83-4f2fa60adee1" class="">
+</p><h2 id="2af0c305-cabb-4110-9df7-c4fae28d19d4" class="">결혼식 안내</h2><p id="803dee02-2b80-4175-9245-27bc2aec53e1" class="">
+</p><p id="df9775cb-7a0a-4483-86ec-64d3d1342e52" class=""><strong>일시 :</strong> 2020년 7월 4일 (토) 오후 3시
+<strong>장소 :</strong> 토브헤세드 (서울 강남구 도산대로38길 32)
+<strong>네이버 지도</strong> :<a href="http://naver.me/Glt5fFbl"> http://naver.me/Glt5fFbl</a></p><p id="076a8595-35cc-4f84-a607-b102d79cd543" class=""> </p><figure id="51b6db32-1a9f-42b1-8068-09625a30ac9c" class="image"><a href="wedding/Untitled.png"><img style="width:479px" src="wedding/Untitled.png"/></a></figure><h3 id="16020819-0b48-420d-9dc6-27c764aae9fa" class=""><strong>오시는 길</strong></h3><ul id="dce67952-ed23-4992-b9d4-c13a1a201055" class="bulleted-list"><li><strong>[지하철] </strong>7호선 학동역
+셔틀버스 : 10번 출구 (서울세관방면)
+도보 이용 : 5분 소요 (약도 참조)</li></ul><ul id="7898a682-77e1-4325-9f16-fac4c8231f23" class="bulleted-list"><li><strong>[자가용] </strong>&quot;토브헤세드&quot; 또는 &quot;언북중학교&quot; 검색
+도로명주소 : 강남구 논현2동 도산대로 38길 32
+주차장 안내 : &quot;건설회관&quot; 주차장 이용. (주차요원 안내)</li></ul><p id="6dc9ee43-f744-4b79-aff9-1eb67156b365" class="">
+</p><h2 id="937b9b1b-3bcd-4a86-929e-ad38ead954bf" class="">자주 묻는 질문</h2><p id="5b76de16-5f1e-4c43-8491-a2a958012335" class="">
+</p><p id="a7795dc1-2e52-4e2b-9b33-0ad72f1c32de" class=""><strong>1) 코로나 떄문에 결혼식 연기되어서 어떡해요. 많이 속상하겠어요.</strong></p><p id="95a85085-842e-4e8c-abb9-9e8e08c191dc" class=""> :  그러게요. 살면서 결혼식을 연기하는 건 상상도 해 본 적이 없는걸요. 하지만 그만큼 더 특별한 결혼식이 되어, 시간이 많이 흐르고 나면 재미있는 이야깃거리가 될  것 같아요.  </p><p id="dd7a4a1b-4f88-4453-85ed-69f6285e3cff" class="">
+</p><p id="64a23189-6437-460d-80bf-e81c5242796f" class=""><strong>2) 이번엔 진짜로 결혼 하는 거 맞아요?</strong></p><p id="d66a96ac-973e-4a17-b94e-10b38cd69352" class=""> : 네! 이번엔 진짜로 결혼합니다. </p><p id="895563ff-db18-4399-9758-548043339f24" class="">
+</p><p id="2513415b-e068-4bd6-a9ea-d78a296da55a" class="">3<strong>) 신혼여행은 어디로 가나요?</strong></p><p id="28f00911-be79-49e5-ba92-0874678af504" class=""> :  원래 2월 29일에 결혼식을 올리면 이집트로 신혼 여행을 다녀올 예정이었습니다만, 현재 코로나 상황으로는 해외 여행이 불가능하여 잠시 강원도로 여행을 다녀올 예정입니다.  이집트는 내년에라도 꼭 가려고 합니다.  홍해에 가서 다이빙도 하고, 사막에 가서 캠핑도 할거에요!</p><p id="a81cd3f3-7765-4adc-86f0-8480d389cd55" class="">
+</p><p id="997494f6-d498-4243-aaef-951ed60ffade" class="">4<strong>) 신혼집은 어디에요?</strong></p><p id="29fb16a2-8689-4f34-b6ba-13ceb3681aed" class=""> : 서울 생활권과 청정자연을 동시에 누릴 수 있는 사통팔달 대한민국 교통의 중심, 경기도 화성시 동탄2신도시에 신혼집을 구했습니다. </p><p id="7e98d5c2-a9e7-4d8c-ae91-bb2b74b5493b" class="">
+</p><p id="c0e9a3ec-d4bd-4a24-a510-f22471bd99d0" class="">5<strong>) 둘이 어떻게 만났나요? 예비 신랑/신부는 뭐 하는 분이에요?</strong></p><p id="982ca865-cab9-416a-8613-8658f17c17b3" class=""> : 대학생 때 만났습니다. 민이는 화학공학/나노화학을 전공했고, 보람이는 나노화학/화학공학을 전공했습니다. 둘이 뭐가 다르냐구요? 앞에 있는 걸 아주 조금 더 배웁니다. 아무튼 지금은 둘 다 화학회사에 다니고 있어요. 
+ 결혼식인 7월 4일이 연애를 시작한 지 2634일째 되는 날이네요. 처음 사귀기로 한 날, 밤새 얘기하고 산책하며 시간을 보냈던 기억이 아직도 생생합니다. </p><ul id="a91aad5d-77ec-4aaa-aa71-71bf058b224f" class="toggle"><li><details open=""><summary>처음 사귀었던 그 날의 사진 (왼쪽 삼각형을 눌러주세요)</summary><p id="5e2275d7-40cf-428b-b0c7-8e96c8b739e6" class=""> 2013년 4월 19일, 학교 주변을 산책할 때 찍은 사진입니다.  </p><figure id="471c9380-412e-4f3a-a807-c36df65d28fd" class="image"><a href="wedding/2.jpg"><img style="width:432px" src="wedding/2.jpg"/></a></figure><p id="b6caad29-b82b-42bb-b2b8-b71e79bf731f" class="">
+</p></details></li></ul><p id="d82e101e-4dd0-4ea8-851c-557935a517e4" class="">
+</p><h2 id="e7e05020-57a2-4530-a2aa-571131db0f82" class="">맺음말</h2><p id="8e91dd54-a5dc-413c-91b6-d5b34f491580" class="">
+</p><p id="5ac72960-13e0-4643-bc45-bfb477b835fa" class=""> 긴 글 읽어주셔서 감사합니다. 아래의 모바일 청첩장으로 오시면 웨딩 촬영 사진을 보실 수 있습니다. 보람이의 고향 제주에서, 보람이의 언니께서 직접 찍어주신 특별한 사진들입니다. </p><p id="bb3c0f58-f3ed-4fb5-beee-cbec68702765" class=""> 항상 건강하십시오. 총총.</p><p id="5af899e9-f424-4090-909e-acc997bc06c3" class="">
+</p><p id="430e7b9a-35eb-4e55-ac8f-27ecf230645b" class="">모바일 청첩장 링크: <a href="http://bojagicard.com/boram528">bojagicard.com/boram528</a></p><p id="7f303b82-bf6c-44f6-b35a-d4111aa6de61" class="">
+</p></div></article></body></html>
